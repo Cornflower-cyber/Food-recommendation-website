@@ -1,0 +1,21 @@
+/* pages/caesId/caesId.wxss */
+.headimageview{
+  margin: 70px 50px;
+  text-align: center;
+}
+.headImage{
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 50%;
+}
+.titletext{
+  text-align: center;
+  font-size: 14px;
+  color: black;
+  margin: 20rpx 0px;
+}
+.authbtn{
+  height: 45px;
+  font-size: 18px;
+  margin: 40px 20px;
+}

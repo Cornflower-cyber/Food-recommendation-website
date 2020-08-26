@@ -1,0 +1,30 @@
+<video src="" controls></video>
+<view>
+<view class="title">四喜丸子</view>
+<view class="menu">
+<text>食材</text>
+<view>五花肉、玉兰片、荸荠、香菇(干)、火腿、葱、姜、鸡蛋白(鸡蛋清)</view>
+<text>调料</text>
+<view>香油、鸡精、料酒、酱油、花椒油、食盐、花生油、淀粉、高汤</view>
+<text>步骤</text>
+<view>1．葱花在1大匙温水中浸泡10分钟，滤去葱花，剩余的葱花水备用。</view>
+<view>2．干香菇在另一个碗中用温水泡发，切成小丁。</view>
+<view>3．玉兰片、荸荠、熟火腿肉也切成小丁。</view>
+<view>4．用刀将猪肉剁成4mm的见方丁。</view>
+<view>5．将剁好的肉末与姜末和四种丁混合在一起。</view>
+<view>6．倒入香油。</view>
+<view>7．用手朝着一个方向搅拌肉馅，使其上劲儿、起腻。</view>
+<view>8．然后倒入葱花水、姜末，搅匀。</view>
+<view>9．加入蛋清。</view>
+<view>10．最后加入牛肉粉、盐和2小匙料酒调味。用手掌来回地摔打几下肉馅，再团成丸子。</view>
+<view>11．待锅中的热油烧至5、6成热时，小心地放下去炸至表面金黄。</view>
+<view>12．用笊篱将丸子捞出来沥油。</view>
+<view>13．沙锅底部垫上姜片和葱白。</view>
+<view>14．码放好丸子，倒入高汤、酱油、1小匙料酒和少许盐。</view>
+<view>15．中火烧开后转小火炖20分钟，然后捞出丸子盛盘。</view>
+<view>16．沙锅里的原汤过滤掉葱姜，倒在净锅里烧开，加水淀粉勾芡，淋入花椒油后关火，趁热浇在丸子上即可。</view>
+</view>
+</view>
+<import src="../footer/footer.wxml" />
+<template is="ff" wx:for="{{footer}}" wx:key="item" data="{{item}}"></template>
+

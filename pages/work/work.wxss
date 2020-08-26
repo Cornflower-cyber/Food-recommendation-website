@@ -1,0 +1,19 @@
+@import"/utils/beas.wxss";
+video{
+  margin-top:15rpx;
+  width: 100%;
+}
+.title{
+  text-align: center;
+  font-size: 36rpx;
+  font-weight: 900;
+}
+text{
+  margin:18rpx 0px;
+  font-weight: 900;
+}
+.menu view{
+  color: #666565;
+  letter-spacing: 2rpx;
+  line-height: 1.5rem;
+}

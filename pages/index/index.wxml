@@ -1,0 +1,38 @@
+<heads id="head"></heads>
+<view class="main">
+	<view class="item">
+		<view class="item-title">热门分类</view>
+		<view class="item-1">
+			<view wx:for="{{layer}}" wx:key="item">
+				<image src="{{item.url}}"></image>
+				<view class="kind"><navigator url="/pages/work2/work2">{{item.kind}}</navigator></view>
+				<view class="count">{{item.count}}选择</view>
+			</view>
+		</view>
+	</view>
+	<view class="item">
+		<view class="item-title">八大菜系</view>
+		<view class="item-2">
+			<view wx:for="{{pic_list}}" wx:key="item">
+				<image src="{{item}}"></image>
+			</view>
+		</view>
+	</view>
+	<view class="item">
+		<view class="item-title">今日菜品推荐</view>
+		<view class="resource" wx:for="{{resource}}" wx:key="item">
+			<view class="resource-img">
+				<image src="{{item.url}}"></image>
+			</view>
+			<view class="wen">
+				<view class="resource-title">
+				<navigator url="/pages/work/work">{{item.title}}</navigator>
+				</view>
+				<view class="resource-desc">{{item.desc}}</view>
+				<view class="resource-mon">{{item.feature}}</view>
+			</view>
+		</view>
+	</view>
+</view>
+<import src="../footer/footer.wxml" />
+<template is="ff" wx:for="{{footer}}" wx:key="item" data="{{item}}"></template>

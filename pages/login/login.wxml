@@ -1,0 +1,16 @@
+<!--pages/login/login.wxml-->
+<view class="login">
+	<image src="/img/login_1.jpg"></image>
+	<view class="body">
+		<text>三餐好味网站登录</text>
+		<form bindsubmit="frombtn">
+			<view><input type='text' placeholder="请输入用户名" name="user"></input></view>
+			<view><input type='text' password placeholder="请输入密码" password name="pass"></input></view>
+			<view><button form-type="submit">登录</button></view>
+		</form>
+		<view class="link">
+			<navigator url="/pages/caesId/caesId">微信登录</navigator>
+			<navigator url="#">立即注册</navigator>
+		</view>
+	</view>
+</view>

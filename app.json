@@ -1,0 +1,40 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/login/login",
+    "pages/work/work",
+    "pages/work2/work2",
+    "pages/header/header",
+    "pages/footer/footer",
+    "pages/caesId/caesId",
+    "pages/about/about"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "三餐好味",
+    "navigationBarTextStyle":"white",
+    "enablePullDownRefresh":true,
+    "backgroundColor":"#ccc",
+    "onReachBottomDistance":80
+  },
+  "tabBar":{
+    "position":"top",
+    "list":[{
+     "pagePath":"pages/index/index",
+     "text":"首页"
+    },
+    {
+      "pagePath":"pages/about/about",
+      "text":"关于我们"
+     }
+  ]},
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+"permission": {
+  "scope.userLocation": {
+    "desc":"你的位置信息将用于小程序位置接口的效果展示"
+  }
+}
+}

@@ -1,0 +1,19 @@
+@import"/utils/beas.wxss";
+.title{
+  text-align: center;
+  font-weight: 900;
+  font-size: 36rpx;
+}
+.breakfast-img image{
+  margin:0px 90rpx;
+  width: 550rpx;
+  height: 400rpx;
+  border-radius: 25rpx;
+}
+.wen{
+  text-align: center;
+  color: #7a7979;
+  margin:20rpx 0px 40rpx 0px;
+  letter-spacing: 2rpx;
+  line-height: 1.5rem;
+}

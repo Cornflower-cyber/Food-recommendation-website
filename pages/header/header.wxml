@@ -1,0 +1,24 @@
+
+<view class="header">
+	<view class="title">
+		<view class="logo">
+			<image src="{{logo}}"></image>
+			<text>{{name}}</text>
+		</view>
+		<view class="link" wx:if="{{show==false}}">
+			<navigator url="/pages/login/login">登录</navigator>
+			<navigator url="#">注册</navigator>
+		</view>
+		<view class="link" wx:else>
+			<image src="{{userinfo.avatarUrl}}"></image>
+			<text>{{userinfo.nickName}}</text>
+		</view>
+	</view>
+	<swiper autoplay indicator-dots>
+		<block wx:for="{{lunbo}}" wx:key="{{item}}">
+			<swiper-item>
+				<image src="{{item}}"></image>
+			</swiper-item>
+		</block>
+	</swiper>
+</view>

@@ -1,0 +1,5 @@
+<template class="footer" name="ff">
+	<view class="footer">
+		<view>{{item}}</view>
+	</view>
+</template>

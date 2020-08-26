@@ -1,0 +1,25 @@
+<heads id="head"></heads>
+<view class="main">
+	<view class="item">
+		<view class="item-title">公司介绍</view>
+		<view class="news">中国专业的美食推荐平台，为每一位顾客提供"满足味蕾"的需求。顾客不出门也能了解到全国各地的美食，加深城与城的交流，促进中国美食的发展，让每一位顾客都能了解到特色美食。三餐美味以"诚信"为本，不好吃不美味的事物绝不推荐。</view>
+	</view>
+	<view class="item">
+		<view class="item-title">联系方式</view>
+		<view class="tel" wx:for="{{tels}}">
+			<text>{{item}}</text>
+			<button data-num="{{index}}" bindtap="clone">复制</button>
+		</view>
+		<view class="ph">
+			<button bindtap="tel">拨打热线</button>
+			<button>关注公众号</button>
+		</view>
+	</view>
+	<view class="item">
+		<view class="item-title">公司地址</view>
+		<view class="adr">黑龙江省哈尔滨市三餐好味公司</view>
+		<map longitude="{{log}}" latitude="{{lat}}" scale="20" show-location></map>
+	</view>
+</view>
+<import src="../footer/footer.wxml" />
+<template is="ff" wx:for="{{footer}}" wx:key="item" data="{{item}}"></template>

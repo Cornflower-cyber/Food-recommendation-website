@@ -1,0 +1,14 @@
+<view>
+	<view class="title">-早餐-</view>
+	<view class="breakfast" wx:for="{{breakfast}}" wx:key="item">
+		<view class="breakfast-img">
+			<image src="{{item.url}}"></image>
+		</view>
+		<view class="wen">
+			<view class="breakfast-title">{{item.title}}</view>
+			<view class="breakfast-desc">{{item.desc}}</view>
+		</view>
+	</view>
+</view>
+<import src="../footer/footer.wxml" />
+<template is="ff" wx:for="{{footer}}" wx:key="item" data="{{item}}"></template>

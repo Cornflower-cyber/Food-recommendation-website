@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "heads":"../header/header"
+  }
+}

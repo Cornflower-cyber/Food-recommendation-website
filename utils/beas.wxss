@@ -1,0 +1,98 @@
+.title{
+  overflow: hidden;
+  padding: 30rpx;
+}
+.title .logo{
+  float: left;
+
+}
+.title .link{
+  float: right;
+  overflow: hidden;
+}
+.title .link navigator{
+  float: left;
+  margin: 30rpx 20rpx;
+}
+.title .logo image{
+  width: 185rpx;
+  height: 153rpx;
+  vertical-align: middle;
+}
+.title .logo text{
+  color: black;
+  font-weight:900 ;
+  font-size: 38rpx;
+  letter-spacing: 2px;
+  margin-left: 5rpx;
+}
+swiper,block,swiper-item,swiper-item image{
+  width: 100%;
+  height: 790rpx;
+}
+.footer{
+  background-color: rgba(129, 122, 122, 0.918);
+  color: white;
+  font-size: 30rpx;
+  text-align: center;
+  padding: 20rpx;
+}
+.main .item .item-title{
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom:10px;
+}
+.main .item .resource{
+  column-count: 2;
+  column-gap: 5rpx;
+}
+.main .item .resource image{
+width: 340rpx;
+height: 278rpx;
+margin: 25rpx 0px;
+}
+.main .item .wen .resource-desc{
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  margin: 8rpx 0px 12rpx 0px;
+  color: #7a7979;
+}
+.main .item .wen .resource-mon{
+  color: #7a7979;
+}
+.main .item .wen .resource-title{
+  color:orange;
+  font-weight: 900;
+}
+.main .item .item-1{
+display: flex;
+justify-content: space-around;
+}
+.main .item .item-1 .kind{
+  color:orange;
+}
+.main .item .item-1 .count{
+  color: #7a7979;
+  margin-top: 10rpx;
+}
+.main .item .item-1 image{
+  width: 160rpx;
+  height: 172rpx;
+}
+.main .item .item-2{
+column-count: 2;
+}
+.main .item .item-2 image{
+  width: 370rpx;
+  height: 150rpx;
+  margin:14rpx 0px;
+}
+.link image{
+  width: 60rpx;
+  height: 60rpx;
+  border-radius: 50%;
+  vertical-align: middle;
+  margin-right:20rpx ;
+  margin-top: 32rpx;
+}
